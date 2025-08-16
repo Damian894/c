@@ -22,7 +22,7 @@ int main()
 	r /= x;//r = r / x; r = 300 / 30 -> r = 10
 	printf("r=%d\r\n", r);
 
-	r %= x;//r = r % x; r = 10 % 30 -> r = 
+	r %= x;//r = r % x; r = 10 % 30 -> r = 10
 	printf("r=%d\r\n", r);
 	return 0;
 }
