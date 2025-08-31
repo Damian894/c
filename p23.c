@@ -29,7 +29,7 @@ int main()
 			result = nr1 / nr2;
 			break;
 		default :
-			printf("nu suport asa operatie");
+			printf("nu suport asa operatie\r\n");
 	}
 
 	printf("rezultat: %.3f\r\n", result);
