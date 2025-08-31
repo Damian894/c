@@ -32,7 +32,7 @@ int main()
 			printf("nu suport asa operatie");
 	}
 
-	printf("rezultat: %f", result);
+	printf("rezultat: %.3f", result);
 
 	return 0;
 }
