@@ -14,15 +14,15 @@ int main()
 	printf("body mass index = %.2f\r\n", bmi);
 
 	if (bmi > 34.9)
-		printf("clasa: extrem obez");
+		printf("clasa: extrem obez\r\n");
 	else if(bmi > 29.9)
-		printf("clasa: obez");
+		printf("clasa: obez\r\n");
 	else if(bmi > 24.9)
-		printf("clasa: supraponderat");
+		printf("clasa: supraponderat\r\n");
 	else if(bmi > 18.5)
-		printf("clasa: normal");
+		printf("clasa: normal\r\n");
 	else
-		printf("clasa: subponderat");
+		printf("clasa: subponderat\r\n");
 
 	return 0;
 }
