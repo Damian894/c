@@ -1,26 +1,16 @@
 #include <stdio.h>
 
-void printf_something();
-void print_goodbye();
+int g_counter = 0;
+
+void change_me()
+{
+	g_counter = 10;
+}
 
 int main()
 {
-	printf_something();
-
+	printf("counter = %d\r\n", g_counter);
+	change_me();
+	printf("counter = %d\r\n", g_counter);
 	return 0;
-}
-
-void printf_something()
-{
-	printf("hello World!\r\n");
-	printf("I love  pizza!\r\n");
-	print_goodbye();
-
-	return;
-}
-
-void print_goodbye()
-{
-	printf("Goodbye World!\r\n");
-	return;
 }
