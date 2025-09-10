@@ -3,7 +3,7 @@
 void change_me(int a[])
 {
 	a[0] = 89;
-	printf("change_me sa efectuat!\r\n");
+	printf("change_me sa efectuat!!!\r\n");
 }
 
 int main(void)
