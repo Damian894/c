@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// != = diferit de...
+
 int main()
 {
 	short i = 16;
