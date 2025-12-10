@@ -8,7 +8,7 @@ int main()
 
 	while(i != 0)
 	{
-		printf("i = %hi\r\n", i);
+		printf("i = %hi\r\n!!!", i);
 		i = i / 2;
 	}
 
