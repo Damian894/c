@@ -19,7 +19,7 @@ int main()
 	mai este interzis sa facem spatiu la o variabila
 	remplasam aste pe underscore (_),
 	Si litere mari nu este de dorit la variabila
-	dar in afara in gilimele in pritf desigur
+	dar in afara in gilimele in printf desigur
 	*/
 
 	printf("Box1 = %d\t Box2 = %d", box1, box2);
