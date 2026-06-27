@@ -5,13 +5,13 @@
 /*
     int -2147483648 ... +2147483647
     %d
-    4 bytes (octets) = 32 biti
-    2 bytes
+    4 bytes (4 octets) = 32 biti
+    2 bytes (2 octets) = 16 biti
 
     unsigned int 0 ... 4294967295
     %u
-    4 bytes (octets) = 32 biti
-    2 bytes
+    4 bytes (4 octets) = 32 biti
+    2 bytes (2 octets) = 16 biti
 */
 
 int main() 
