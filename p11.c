@@ -19,5 +19,7 @@ int main()
     nr = 11231231;
     printf("nr is %li\r\n", nr);
     printf("sizeof long int: %li bytes\r\n", sizeof(nr));
+    // For exemple in my case, long int is 8 bytes
+    // It is preferable for me to use int because he is 4 bytes
     return 0;
 }
