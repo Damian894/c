@@ -14,7 +14,7 @@ int main()
 {
 	unsigned long long nr;
 
-	printf("sieof long long int is %d bytes\r\n", sizeof(nr));
+	printf("sizeof long long int is %d bytes\r\n", sizeof(nr));
 	nr = 0;
 	printf("min long long int is %llu\r\n", nr);
 	nr = 18446744073709551615;
