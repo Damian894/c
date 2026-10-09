@@ -12,9 +12,11 @@
 
 int main()
 {
+	float my_float = 3.14;
 	double my_double;
 
 	my_double = 3.141592653589793;
-	printf("my double is %.15lf", my_double);
+	printf("my float is %.2f\r\n", my_float);
+	printf("my double is %.15lf\r\n", my_double);
 	return 0;
 }
